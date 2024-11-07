@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Converter</title>
     <link rel="stylesheet" href="/CSS/currency_converter.css">
+   
 </head>
 <body>
-    <h1>Currency Convertor App</h1>
-    <form action="" id="form">
-        Amount: <input type="number" placeholder="enter amount"> <input type="text" >
-        <br><br>
-        Convert: <input type="text"> <input type="text">
-        <br><br>
-        <button type="submit" >Convert</button>
-       
-    </form>
-   <script src="/JS/currency_convertor.js"></script>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <input type="text" id="from" placeholder="From Currency (e.g., USD)">
+        <input type="text" id="amt" placeholder="Amount">
+        <br>
+        <input type="text" id="to" placeholder="To Currency (e.g., EUR)">
+        <input type="text" id="conamt" placeholder="Converted Amount" readonly>
+        <br>
+        <button>Convert</button>
+    </div>
+ 
+    <script src="/JS/currency_convertor.js">
+        
+    </script>
 </body>
 </html>
